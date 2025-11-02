@@ -1,0 +1,11 @@
+﻿<Solution>
+    <Folder Name="/_/">
+        <File Path="..\.gitignore" />
+        <File Path="..\LICENSE" />
+        <File Path="..\.csharpierrc.yaml" />
+        <File Path="..\README.md" />
+    </Folder>
+    <Project Path="FileCache.Benchmarks\FileCache.Benchmarks.csproj" Type="Classic C#" />
+    <Project Path="FileCache.Tests\FileCache.Tests.csproj" Type="Classic C#" />
+    <Project Path="FileCache\FileCache.csproj" Type="Classic C#" />
+</Solution>

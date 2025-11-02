@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="BenchmarkDotNet" Version="0.15.5" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\FileCache\FileCache.csproj" />
+    </ItemGroup>
+</Project>
